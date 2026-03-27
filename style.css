@@ -162,3 +162,50 @@ footer {
   justify-content: center;
   font-size: 14px;
 }
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  /* Main container stacks vertically */
+  .main-container {
+    flex-direction: column;
+    height: auto;          /* let content flow naturally */
+  }
+
+  /* Sidebar takes full width on mobile */
+  .sidebar {
+    width: 100%;
+    height: auto;          /* no fixed height */
+    margin-top: 10px;
+    border-radius: 0;      /* optional: remove rounded corners */
+  }
+
+  /* Search bar expands */
+  .search-container {
+    width: 100%;
+  }
+
+  /* Channel list scrolls but fits mobile */
+  #channel-list {
+    max-height: 40vh;      /* limit height so it doesn’t push footer */
+    overflow-y: auto;
+  }
+
+  /* Video area takes full width */
+  .video-area {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  /* Logo scales down */
+  .logo img {
+    height: 30px;
+    width: auto;
+  }
+
+  /* Dropdowns expand full width */
+  select {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
