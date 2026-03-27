@@ -1,0 +1,132 @@
+<!--python -m http.server 8080-->
+<!-- http://localhost:8080-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PraveenTV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <div class="logo">
+        <img src="resource/logo1.png" alt="App Logo">
+      </div>
+    </div>
+    <div class="header-middle">
+      <div class="app-name">Praveen-TV</div>
+    </div>
+
+
+    <div class="header-right">
+        <select id="language" name="language" aria-label="Language">
+            <option value="">Language</option>
+            <option value="asm">Assamese</option>
+            <option value="ben">Bengali</option>
+            <option value="bho">Bhojpuri</option>
+            <option value="eng">English</option>
+            <option value="hin">Hindi</option>
+            <option value="kan">Kannada</option>
+            <option value="mal">Malayalam</option>
+            <option value="mar">Marathi</option>
+            <option value="odi">Odia</option>
+            <option value="pan">Punjabi</option>
+            <option value="tam">Tamil</option>
+            <option value="tel">Telugu</option>
+            <option value="urd">Urdu</option>
+
+        </select>
+        <select id="category" name="category" aria-label="Category">
+            <option value="">Category</option>
+            <option value="divotional">Divotional</option>
+            <option value="kids">Kids</option>
+            <option value="news">News</option>
+            <option value="movies">Movies</option>
+            <option value="sports">Sports</option>
+            <option value="music">Music</option>
+        </select>
+    </div>
+</header>
+
+  <!-- Main container -->
+  <div class="main-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search channels...">
+        </div>
+        <div id="channel-list"></div>
+    </aside>
+
+    <!-- Video area -->
+    <section class="video-area">
+      <video id="player" controls autoplay></video>
+      <div id="now-playing"></div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    Copy rights © bojja tekhub
+  </footer>
+
+  <script>
+  fetch("resource/channels.json")
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById("channel-list");
+      const player = document.getElementById("player");
+      const nowPlaying = document.getElementById("now-playing");
+      const searchInput = document.getElementById("search");
+      const languageSelect = document.getElementById("language");
+      const categorySelect = document.getElementById("category");
+
+      function renderChannels(list) {
+        container.innerHTML = "";
+        list.forEach(ch => {
+          const item = document.createElement("div");
+          item.className = "channel";
+          item.innerHTML = `<div class="channel-name">${ch.name}</div>`;
+          item.onclick = () => {
+            if (ch.iptv_urls && ch.iptv_urls.length > 0) {
+              player.src = ch.iptv_urls[0];
+              player.play();
+              nowPlaying.textContent = "Now Playing: " + ch.name;
+            }
+          };
+          container.appendChild(item);
+        });
+      }
+
+      // Apply filters together
+      function applyFilters() {
+        const term = searchInput.value.toLowerCase();
+        const lang = languageSelect.value;
+        const cat = categorySelect.value;
+
+        const filtered = data.filter(ch => {
+          const matchesSearch = ch.name.toLowerCase().includes(term);
+          const matchesLang = !lang || ch.language === lang;
+          const matchesCat = !cat || ch.category === cat; // requires "category" field in JSON
+          return matchesSearch && matchesLang && matchesCat;
+        });
+
+        renderChannels(filtered);
+      }
+
+      // Initial render
+      renderChannels(data);
+
+      // Event listeners
+      searchInput.addEventListener("input", applyFilters);
+      languageSelect.addEventListener("change", applyFilters);
+      categorySelect.addEventListener("change", applyFilters);
+    })
+    .catch(err => console.error("Error loading playlist:", err));
+</script>
+</body>
+</html>
