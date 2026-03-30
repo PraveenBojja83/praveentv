@@ -4462,17 +4462,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ycIORsCl0Fwyqe",
-    "name": "PuthiyathalaimuraiTV",
-    "iptv_urls": [],
-    "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/VNzHENanD0g"
-    ],
-    "language": "tam",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "V0xFZR1j8SWBFI",
     "name": "Puthuyugam TV",
     "iptv_urls": [
