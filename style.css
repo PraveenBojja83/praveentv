@@ -132,7 +132,7 @@ select:focus {
   padding: 10px;
 
   /* hide scrollbar cross-browser */
-  scrollbar-width: none;       /* Firefox */
+  /* scrollbar-width: none;       /* Firefox */
   -ms-overflow-style: none;    /* IE/Edge */
 }
 #channel-list::-webkit-scrollbar {
