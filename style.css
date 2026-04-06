@@ -70,7 +70,7 @@ select {
   padding: 8px 12px;
   font-size: 1rem;
   font-family: "Segoe UI", Arial, sans-serif;
-  border: 1px solid #ccc;
+  border: 4px solid #fcec03;
   border-radius: 6px;
   background-color: #ffffff;
   color: #333;
@@ -80,15 +80,15 @@ select {
 
 /* Hover effect */
 select:hover {
-  border-color: #666;
-  background-color: #f9f9f9;
+  border-color: #f9f102;
+  background-color: #4a4848;
 }
 
 /* Focus effect (when clicked) */
 select:focus {
   outline: none;
   border-color: #0078d7;       /* Microsoft blue accent */
-  box-shadow: 0 0 4px #0078d7; /* subtle glow */
+  box-shadow: 0 0 6px #0078d7; /* subtle glow */
 }
 
 /* Main container */
