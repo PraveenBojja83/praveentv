@@ -4455,8 +4455,18 @@
     "name": "Puthiya Thalaimurai",
     "iptv_urls": [
       "https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8"
-    ],
+   ],
     "youtube_urls": [],
+    "language": "tam",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ycIORsCl0Fwyqe",
+    "name": "DW News TV",
+    "iptv_urls": ["https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"],
+    "youtube_urls": [
+    ],
     "language": "tam",
     "country": "in",
     "isGeoBlocked": false
