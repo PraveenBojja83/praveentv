@@ -81,7 +81,7 @@ select {
 /* Hover effect */
 select:hover {
   border-color: #f9f102;
-  background-color: #4a4848;
+  background-color: #7b7777;
 }
 
 /* Focus effect (when clicked) */
