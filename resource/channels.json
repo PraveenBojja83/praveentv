@@ -3971,12 +3971,14 @@
   },
   {
     "nanoid": "fOYCBBn1ttMPXa",
-    "name": "BPN Tv18",
-    "iptv_urls": [],
+    "name": "Mango Mobile TV",
+    "iptv_urls": [
+      "https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8"
+    ],
     "youtube_urls": [
     ],
-    "language": "eng",
-    "category": "news",
+    "language": "tel",
+    "category": "movies",
     "country": "in",
     "isGeoBlocked": false
   },
