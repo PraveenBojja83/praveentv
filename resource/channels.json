@@ -148,41 +148,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "er41DmeIs306dY",
-    "name": "ETV Andhra Pradesh",
-    "iptv_urls": [
-      "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
-    ],
-    "youtube_urls": [],
-    "language": "tel",
-    "category": "news",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "wyDPdeLY6Tg0Hc",
-    "name": "ETV Cinema HD",
-    "iptv_urls": [
-      "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8"
-    ],
-    "youtube_urls": [],
-    "language": "tel",
-    "category": "movies",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "J32LjxZ0RC7vQK",
-    "name": "ETV Comedy",
-    "iptv_urls": ["https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8"],
-    "youtube_urls": [
-    ],
-    "language": "tel",
-    "category": "entertainment",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "maCBZ1ENJ0vxPE",
     "name": "ETV Abhiruchi",
     "iptv_urls": ["https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8"],
@@ -193,71 +158,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "v5S3VQc3uYprHf",
-    "name": "ETV Telugu",
+    "nanoid": "er41DmeIs306dY",
+    "name": "ETV Andhra Pradesh",
     "iptv_urls": [
-      "https://d2z3q47xzd535o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264-2_cloud_in/index.m3u8"
+      "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
     ],
     "youtube_urls": [],
     "language": "tel",
+    "category": "news",
     "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tdujCJzBs2qeRR",
-    "name": "ETV Plus HD",
-    "iptv_urls": ["https://d27tnkf60df3v4.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_PLUS_H264-3_cloud_in/index.m3u8"],
-    "youtube_urls": [
-    ],
-    "language": "tel",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "NbTziIpdoPwgQB",
-    "name": "ETV JOSH",
-    "iptv_urls": [
-      "https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8"
-    ],
-    "youtube_urls": [],
-    "language": "tel",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ICy3Xgo6y92b0g",
-    "name": "ETV Telangana",
-    "iptv_urls": [
-      "https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264-3_cloud_in/index.m3u8"
-    ],
-    "youtube_urls": [
-    ],
-    "language": "tel",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "mNsrgueOaZN9Tk",
-    "name": "ETV Music",
-    "iptv_urls": [
-      "https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8"
-    ],
-    "youtube_urls": [],
-    "language": "tel",
-    "category": "music",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uSctDmIPr59SNQ",
-    "name": "ETV Life",
-    "iptv_urls": [
-      "https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8"
-    ],
-    "youtube_urls": [],
-    "language": "tel",
-    "country": "in",
-    "category": "health",
     "isGeoBlocked": false
   },
   {
@@ -1911,6 +1820,97 @@
     ],
     "youtube_urls": [],
     "language": "eng",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wyDPdeLY6Tg0Hc",
+    "name": "ETV Cinema HD",
+    "iptv_urls": [
+      "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8"
+    ],
+    "youtube_urls": [],
+    "language": "tel",
+    "category": "movies",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "J32LjxZ0RC7vQK",
+    "name": "ETV Comedy",
+    "iptv_urls": ["https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8"],
+    "youtube_urls": [
+    ],
+    "language": "tel",
+    "category": "entertainment",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NbTziIpdoPwgQB",
+    "name": "ETV JOSH",
+    "iptv_urls": [
+      "https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8"
+    ],
+    "youtube_urls": [],
+    "language": "tel",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uSctDmIPr59SNQ",
+    "name": "ETV Life",
+    "iptv_urls": [
+      "https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8"
+    ],
+    "youtube_urls": [],
+    "language": "tel",
+    "country": "in",
+    "category": "health",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "mNsrgueOaZN9Tk",
+    "name": "ETV Music",
+    "iptv_urls": [
+      "https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8"
+    ],
+    "youtube_urls": [],
+    "language": "tel",
+    "category": "music",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "tdujCJzBs2qeRR",
+    "name": "ETV Plus HD",
+    "iptv_urls": ["https://d27tnkf60df3v4.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_PLUS_H264-3_cloud_in/index.m3u8"],
+    "youtube_urls": [
+    ],
+    "language": "tel",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "v5S3VQc3uYprHf",
+    "name": "ETV Telugu",
+    "iptv_urls": [
+      "https://d2z3q47xzd535o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264-2_cloud_in/index.m3u8"
+    ],
+    "youtube_urls": [],
+    "language": "tel",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ICy3Xgo6y92b0g",
+    "name": "ETV Telangana",
+    "iptv_urls": [
+      "https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264-3_cloud_in/index.m3u8"
+    ],
+    "youtube_urls": [
+    ],
+    "language": "tel",
     "country": "in",
     "isGeoBlocked": false
   },
