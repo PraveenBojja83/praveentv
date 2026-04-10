@@ -148,28 +148,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "maCBZ1ENJ0vxPE",
-    "name": "ETV Abhiruchi",
-    "iptv_urls": ["https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8"],
-    "youtube_urls": [
-    ],
-    "language": "tel",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "er41DmeIs306dY",
-    "name": "ETV Andhra Pradesh",
-    "iptv_urls": [
-      "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
-    ],
-    "youtube_urls": [],
-    "language": "tel",
-    "category": "news",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "cGous9q8HWFQWQ",
     "name": "Aaj Tak HD",
     "iptv_urls": [
@@ -1820,6 +1798,28 @@
     ],
     "youtube_urls": [],
     "language": "eng",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "maCBZ1ENJ0vxPE",
+    "name": "ETV Abhiruchi",
+    "iptv_urls": ["https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8"],
+    "youtube_urls": [
+    ],
+    "language": "tel",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "er41DmeIs306dY",
+    "name": "ETV Andhra Pradesh",
+    "iptv_urls": [
+      "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
+    ],
+    "youtube_urls": [],
+    "language": "tel",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
