@@ -189,6 +189,7 @@
     ],
     "youtube_urls": [],
     "language": "hin",
+    "category": "divotional",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -200,6 +201,7 @@
     ],
     "youtube_urls": [],
     "language": "guj",
+    "category": "divotional",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -211,6 +213,7 @@
     ],
     "youtube_urls": [],
     "language": "kan",
+    "category": "divotional",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -222,6 +225,7 @@
     ],
     "youtube_urls": [],
     "language": "hin",
+    "category": "divotional",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -233,6 +237,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "divotional",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -952,6 +957,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "comedy",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -1031,6 +1037,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "comedy",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -2672,6 +2679,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "music",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -2695,6 +2703,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "entertainment",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -3050,6 +3059,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -3061,6 +3071,7 @@
       "https://www.youtube-nocookie.com/embed/uXuh15qCgGo"
     ],
     "language": "tam",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -3072,6 +3083,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "entertainment",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4060,6 +4072,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "divotional",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4821,6 +4834,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "music",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4979,10 +4993,9 @@
   },
   {
     "nanoid": "Uqba1IIHfRAtlg",
-    "name": "Sathiyam News",
+    "name": "BPN Tv18",
     "iptv_urls": [],
     "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/Vc4hPtP7iU4"
     ],
     "language": "tam",
     "category": "news",
@@ -5252,6 +5265,7 @@
     ],
     "youtube_urls": [],
     "language": "tam",
+    "category": "comedy",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -5834,6 +5848,7 @@
     ],
     "youtube_urls": [],
     "language": "hin",
+    "category": "divotional",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -5844,7 +5859,8 @@
       "https://cdn-3.pishow.tv/live/461/master.m3u8"
     ],
     "youtube_urls": [],
-    "language": "",
+    "language": "tam",
+    "category": "entertainment",
     "country": "in",
     "isGeoBlocked": false
   },
