@@ -87,7 +87,7 @@ select:hover {
 /* Focus effect (when clicked) */
 select:focus {
   outline: none;
-  border-color: #0078d7;       /* Microsoft blue accent */
+  border-color: #d7d700;       /* Microsoft blue accent */
   box-shadow: 0 0 6px #0078d7; /* subtle glow */
 }
 
@@ -112,20 +112,6 @@ select:focus {
   flex-direction: column;
 }
 
-.search-container {
-  width: 12vw;
-  padding: 10px;
-  background: transparent;
-  flex-shrink: 0; /* stays fixed */
-}
-
-.search-container input {
-  width: 100%;
-  padding: 6px;
-  border: none;
-  border-radius: 4px;
-}
-
 #channel-list {
   flex: 1;
   overflow-y: auto;   /* allows scrolling */
@@ -148,6 +134,20 @@ select:focus {
 }
 .channel:hover {
   background: #555;
+}
+
+.search-container {
+  width: 12vw;
+  padding: 10px;
+  background: transparent;
+  flex-shrink: 0; /* stays fixed */
+}
+
+.search-container input {
+  width: 100%;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
 }
 
 /* Video area */
