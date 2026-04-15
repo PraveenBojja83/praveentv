@@ -65,6 +65,7 @@
     "nanoid": "BLp6YyzURYFuAK",
     "name": "9X Jalwa",
     "iptv_urls": [
+      "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/47bdb49d-f6f3-4927-a9ea-12c4c5afc732/0.m3u8",
       "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8?ads.vf=yJV4ZespwY4"
     ],
     "youtube_urls": [],
@@ -127,11 +128,11 @@
   },
   {
     "nanoid": "TNdRouVuS6FT1Y",
-    "name": "BPN Tv20",
-    "iptv_urls": [],
+    "name": "NK TV 24x7",
+    "iptv_urls": ["https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8"],
     "youtube_urls": [
     ],
-    "language": "mal",
+    "language": "asm",
     "category": "news",
     "country": "in",
     "isGeoBlocked": false
@@ -158,6 +159,7 @@
     ],
     "youtube_urls": [],
     "language": "hin",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -169,6 +171,7 @@
     ],
     "youtube_urls": [],
     "language": "ben",
+    "category": "entertainment",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -322,12 +325,12 @@
   },
   {
     "nanoid": "cplMFqPLTEVBUU",
-    "name": "BPN Tv19",
-    "iptv_urls": [],
+    "name": "Jonack TV",
+    "iptv_urls": ["https://cdn.smartstream.video/smartstream-us/jonakk/jonakk/playlist.m3u8"],
     "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/a5B0FhXuLoY"
     ],
-    "language": "eng",
+    "language": "asm",
+    "category":"news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -1202,11 +1205,12 @@
   },
   {
     "nanoid": "0dlUXVoM4HP1sS",
-    "name": "BPN Tv15",
-    "iptv_urls": [],
+    "name": "Hindi Dubbed Movies",
+    "iptv_urls": ["https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8"],
     "youtube_urls": [
     ],
-    "language": "eng",
+    "language": "hin",
+    "category": "movies",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -1223,12 +1227,12 @@
   },
   {
     "nanoid": "WNVyhRAYooRBZY",
-    "name": "CVR Health",
+    "name": "Bpn Tv8",
     "iptv_urls": [
-      "https://cdn-6.pishow.tv/live/395/master.m3u8"
+      ""
     ],
     "youtube_urls": [],
-    "language": "tel",
+    "language": "eng",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -1387,7 +1391,8 @@
       "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e5b9db1cc184406bb97159da2f120f91/index.m3u8"
     ],
     "youtube_urls": [],
-    "language": "kok",
+    "language": "mar",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -1415,11 +1420,12 @@
   },
   {
     "nanoid": "hGrGIAff2hIAZi",
-    "name": "BPN Tv16",
-    "iptv_urls": [],
+    "name": "BBC Earth",
+    "iptv_urls": ["https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8"],
     "youtube_urls": [
     ],
     "language": "eng",
+    "category": "nature",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -1796,6 +1802,7 @@
     ],
     "youtube_urls": [],
     "language": "ben",
+    "category": "kids",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -2256,12 +2263,12 @@
   },
   {
     "nanoid": "VNIUL2U7kEoQ25",
-    "name": "BPN Tv14",
-    "iptv_urls": [],
+    "name": "Shemaroo Bollywood",
+    "iptv_urls": ["https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8"],
     "youtube_urls": [
     ],
-    "language": "eng",
-    "category": "news",
+    "language": "hin",
+    "category": "movies",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -2855,6 +2862,7 @@
     ],
     "youtube_urls": [],
     "language": "ben",
+    "category": "kids",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -2941,11 +2949,12 @@
   },
   {
     "nanoid": "XucJJz79VbqxfE",
-    "name": "BPN Tv8",
-    "iptv_urls": [],
+    "name": "TV Punjab",
+    "iptv_urls": ["https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8"],
     "youtube_urls": [
     ],
-    "language": "eng",
+    "language": "pan",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -3135,6 +3144,7 @@
     ],
     "youtube_urls": [],
     "language": "hin",
+    "category": "kids",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -3472,11 +3482,12 @@
   },
   {
     "nanoid": "CB2xcxaMc29etl",
-    "name": "BPN Tv17",
-    "iptv_urls": [],
+    "name": "Wild Earth",
+    "iptv_urls": ["https://wildearth-plex.amagi.tv/master.m3u8"],
     "youtube_urls": [
     ],
     "language": "eng",
+    "category": "nature",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -3950,11 +3961,11 @@
   },
   {
     "nanoid": "jzUX4EGSi0Qw5Z",
-    "name": "BPN Tv12",
-    "iptv_urls": [],
+    "name": "Zee Kannada News",
+    "iptv_urls": ["https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8"],
     "youtube_urls": [
     ],
-    "language": "eng",
+    "language": "kan",
     "category": "news",
     "country": "in",
     "isGeoBlocked": false
@@ -4062,7 +4073,8 @@
       "https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8"
     ],
     "youtube_urls": [],
-    "language": "ori",
+    "language": "odi",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4333,6 +4345,7 @@
     ],
     "youtube_urls": [],
     "language": "pan",
+    "category": "music",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4362,12 +4375,12 @@
   },
   {
     "nanoid": "p6MjalgOyQhnzJ",
-    "name": "BPN Tv11",
-    "iptv_urls": [],
+    "name": "Siri Kannada",
+    "iptv_urls": ["https://mumt02.tangotv.in/SIRIKANNADAALLTIME/index.m3u8"],
     "youtube_urls": [
     ],
-    "language": "eng",
-    "category": "news",
+    "language": "kan",
+    "category": "entertainment",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4379,6 +4392,7 @@
     ],
     "youtube_urls": [],
     "language": "pan",
+    "category": "entertainment",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4390,6 +4404,7 @@
     ],
     "youtube_urls": [],
     "language": "pan",
+    "category": "movies",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4737,12 +4752,12 @@
   },
   {
     "nanoid": "nRw722HDE7h9Dy",
-    "name": "BPN Tv9",
-    "iptv_urls": [],
+    "name": "Tarang Music",
+    "iptv_urls": ["https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8"],
     "youtube_urls": [
     ],
-    "language": "mar",
-      "category": "news",
+    "language": "odi",
+    "category": "music",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -4995,11 +5010,11 @@
   },
   {
     "nanoid": "Uqba1IIHfRAtlg",
-    "name": "BPN Tv18",
-    "iptv_urls": [],
+    "name": "DY 365",
+    "iptv_urls": ["https://cdn.smartstream.video/smartstream-us/dy365/dy365/playlist.m3u8"],
     "youtube_urls": [
     ],
-    "language": "tam",
+    "language": "asm",
     "category": "news",
     "country": "in",
     "isGeoBlocked": false
@@ -5448,11 +5463,12 @@
   },
   {
     "nanoid": "9yF4TfXhAqqRxP",
-    "name": "BPN Tv13",
-    "iptv_urls": [],
+    "name": "Goldmines Movies 2",
+    "iptv_urls": ["https://cdn-2.pishow.tv/live/1460/master.m3u8"],
     "youtube_urls": [
     ],
-    "language": "eng",
+    "language": "hin",
+    "category": "movies",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -5503,11 +5519,12 @@
   },
   {
     "nanoid": "PQC3FM3fVikGcf",
-    "name": "BPN Tv10",
-    "iptv_urls": [],
+    "name": "24 News Malayalam",
+    "iptv_urls": ["https://segment.yuppcdn.net/110322/channel24/playlist.m3u8"],
     "youtube_urls": [
     ],
-    "language": "mar",
+    "language": "mal",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -5599,6 +5616,7 @@
     ],
     "youtube_urls": [],
     "language": "eng",
+    "category": "travel",
     "country": "in",
     "isGeoBlocked": false
   },
