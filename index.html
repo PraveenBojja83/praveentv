@@ -76,58 +76,70 @@
   </footer>
 
   <script>
-  fetch("resource/channels.json")
-    .then(response => response.json())
-    .then(data => {
-      const container = document.getElementById("channel-list");
-      const player = document.getElementById("player");
-      const nowPlaying = document.getElementById("now-playing");
-      const searchInput = document.getElementById("search");
-      const languageSelect = document.getElementById("language");
-      const categorySelect = document.getElementById("category");
+    fetch("resource/channels.json?nocache=" + new Date().getTime())
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById("channel-list");
+    const player = document.getElementById("player");
+    const nowPlaying = document.getElementById("now-playing");
+    const searchInput = document.getElementById("search");
+    const languageSelect = document.getElementById("language");
+    const categorySelect = document.getElementById("category");
 
-      function renderChannels(list) {
-        container.innerHTML = "";
-        list.forEach(ch => {
-          const item = document.createElement("div");
-          item.className = "channel";
-          item.innerHTML = `<div class="channel-name">${ch.name}</div>`;
-          item.onclick = () => {
-            if (ch.iptv_urls && ch.iptv_urls.length > 0) {
-              player.src = ch.iptv_urls[0];
-              player.play();
-              nowPlaying.textContent = "Now Playing: " + ch.name;
-            }
-          };
-          container.appendChild(item);
-        });
-      }
+    function renderChannels(list) {
+      container.innerHTML = "";
+      list.forEach(ch => {
+        const item = document.createElement("div");
+        item.className = "channel";
+        item.innerHTML = `<div class="channel-name">${ch.name}</div>`;
+        item.onclick = () => {
+          if (ch.iptv_urls && ch.iptv_urls.length > 0) {
+            player.src = ch.iptv_urls[0];
+            player.play();
+            nowPlaying.textContent = "Now Playing: " + ch.name;
+          }
+        };
+        container.appendChild(item);
+      });
+    }
 
-      // Apply filters together
-      function applyFilters() {
-        const term = searchInput.value.toLowerCase();
-        const lang = languageSelect.value;
-        const cat = categorySelect.value;
+    function applyFilters() {
+      const term = searchInput.value.toLowerCase();
+      const lang = languageSelect.value;
+      const cat = categorySelect.value;
 
-        const filtered = data.filter(ch => {
-          const matchesSearch = ch.name.toLowerCase().includes(term);
-          const matchesLang = !lang || ch.language === lang;
-          const matchesCat = !cat || ch.category === cat; // requires "category" field in JSON
-          return matchesSearch && matchesLang && matchesCat;
-        });
+      const filtered = data.filter(ch => {
+        const matchesSearch = ch.name.toLowerCase().includes(term);
+        const matchesLang = !lang || ch.language === lang;
+        const matchesCat = !cat || ch.category === cat;
+        return matchesSearch && matchesLang && matchesCat;
+      });
 
-        renderChannels(filtered);
-      }
+      const sorted = [...filtered].sort((a, b) =>
+        a.name.localeCompare(b.name, "en", { sensitivity: "base" })
+      );
 
-      // Initial render
-      renderChannels(data);
+      renderChannels(sorted);
+      return sorted;
+    }
 
-      // Event listeners
-      searchInput.addEventListener("input", applyFilters);
-      languageSelect.addEventListener("change", applyFilters);
-      categorySelect.addEventListener("change", applyFilters);
-    })
-    .catch(err => console.error("Error loading playlist:", err));
-</script>
+    // Initial render
+    const initialList = applyFilters();
+
+    // Auto-play first valid channel once
+    const first = initialList.find(ch => ch.iptv_urls && ch.iptv_urls.length > 0);
+    if (first) {
+      player.src = first.iptv_urls[0];
+      player.play();
+      nowPlaying.textContent = "Now Playing: " + first.name;
+    }
+
+    // Event listeners
+    searchInput.addEventListener("input", () => renderChannels(applyFilters()));
+    languageSelect.addEventListener("change", () => renderChannels(applyFilters()));
+    categorySelect.addEventListener("change", () => renderChannels(applyFilters()));
+  })
+  .catch(err => console.error("Error loading playlist:", err));
+  </script>
 </body>
 </html>

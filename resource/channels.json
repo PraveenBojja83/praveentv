@@ -1,19 +1,33 @@
 [
   {
-    "nanoid": "WDozmZBk0hABKQ",
-    "name": "&TV International",
+    "nanoid": "yr33MgQq5gUR8N",
+    "name": "YRF Music",
     "iptv_urls": [
-      "https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8"
+      "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+      "https://d14c63magvk61v.cloudfront.net/strm/channels/yrfmusic/master.m3u8",
+      "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8?ads.vf=L7NUQD-PFQK"
     ],
     "youtube_urls": [],
     "language": "hin",
-    "category": "travel",
+    "category": "music",
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1oJS44fbwcfCSt",
+    "name": "10 TV News",
+    "iptv_urls": [
+      "https://cdn-1.pishow.tv/live/391/master.m3u8"
+    ],
+    "youtube_urls": [],
+    "language": "tel",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
   {
     "nanoid": "1Or43iduGZ8f8z",
-    "name": "4K TRAVEL TV",
+    "name": "FOUR K(4K) TRAVEL TV",
     "iptv_urls": [
       "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8?ads.vf=-W-Hab4e1BO"
     ],
@@ -100,20 +114,8 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1oJS44fbwcfCSt",
-    "name": "10 TV News",
-    "iptv_urls": [
-      "https://cdn-1.pishow.tv/live/391/master.m3u8"
-    ],
-    "youtube_urls": [],
-    "language": "tel",
-    "category": "news",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ULmI9rRZV9Z84b",
-    "name": "22Scope News",
+    "name": "22 Scope News",
     "iptv_urls": [
       "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8"
     ],
@@ -125,10 +127,9 @@
   },
   {
     "nanoid": "TNdRouVuS6FT1Y",
-    "name": "24 News",
+    "name": "BPN Tv20",
     "iptv_urls": [],
     "youtube_urls": [
-      "https://www.youtube-nocookie.com/embed/1wECsnGZcfc"
     ],
     "language": "mal",
     "category": "news",
@@ -151,6 +152,7 @@
     "nanoid": "cGous9q8HWFQWQ",
     "name": "Aaj Tak HD",
     "iptv_urls": [
+      "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8",
       "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8",
       "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8"
     ],
@@ -172,7 +174,7 @@
   },
   {
     "nanoid": "r3w6DvI7DJibMX",
-    "name": "Aastha",
+    "name": "Aastha Hindi",
     "iptv_urls": [
       "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8"
     ],
@@ -5974,20 +5976,6 @@
     ],
     "youtube_urls": [],
     "language": "",
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "yr33MgQq5gUR8N",
-    "name": "YRF Music",
-    "iptv_urls": [
-      "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-      "https://d14c63magvk61v.cloudfront.net/strm/channels/yrfmusic/master.m3u8",
-      "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8?ads.vf=L7NUQD-PFQK"
-    ],
-    "youtube_urls": [],
-    "language": "hin",
-    "category": "music",
     "country": "in",
     "isGeoBlocked": false
   },
