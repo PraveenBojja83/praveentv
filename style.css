@@ -224,7 +224,7 @@ footer {
 
   /* Middle section: 40% */
   .header-middle {
-    flex: 0 0 40%;              /* fixed 40% width */
+    flex: 0 0 20%;              /* fixed 40% width */
     text-align: center;
   }
 
@@ -235,7 +235,7 @@ footer {
 
   /* Right section: 40% */
   .header-right {
-    flex: 0 0 40%;              /* fixed 40% width */
+    flex: 0 0 60%;              /* fixed 40% width */
     display: flex;              /* keep dropdowns side by side */
     justify-content: flex-end;  /* align to right */
     align-items: center;
