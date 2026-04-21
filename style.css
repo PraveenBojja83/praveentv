@@ -294,3 +294,54 @@ footer {
     margin-top: 5px;
   }
 }
+
+/* Mobile & tablet adjustments */
+@media (max-width: 820px) {
+  header {
+    height: auto;
+    flex-direction: row;        /* keep row layout */
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 0;
+  }
+
+  /* Left section: 20% */
+  .header-left {
+    flex: 0 0 20%;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .logo img {
+    height: 28px;
+    width: auto;
+  }
+
+  /* Middle section: 40% */
+  .header-middle {
+    flex: 0 0 40%;
+    text-align: center;
+  }
+
+  .app-name {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  /* Right section: 40% */
+  .header-right {
+    flex: 0 0 40%;
+    display: flex;              /* ✅ force row layout */
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+    margin-right: 5px;
+    flex-wrap: nowrap;          /* ✅ prevent wrapping */
+  }
+
+  .header-right select {
+    width: 70px;                /* ✅ reduced width */
+    font-size: 0.8rem;          /* ✅ smaller font */
+    padding: 4px 6px;           /* tighter padding */
+  }
+}
