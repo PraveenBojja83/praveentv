@@ -511,13 +511,12 @@
   },
   {
     "nanoid": "f9tX01bn3EYQEs",
-    "name": "CVR OM Telugu Spiritual",
+    "name": "BPN Tv10",
     "iptv_urls": [
-      "https://cdn-1.pishow.tv/live/957/master.m3u8"
     ],
     "youtube_urls": [],
-    "language": "tel",
-    "category": "divotional",
+    "language": "eng",
+    "category": "news",
     "country": "in",
     "isGeoBlocked": false
   },
@@ -2033,7 +2032,7 @@
   },
   {
     "nanoid": "OISwOFtHZnxukK",
-    "name": "GOLDMINES MOVIES",
+    "name": "Goldmines Movies",
     "iptv_urls": [
       "https://cdn-2.pishow.tv/live/1461/master.m3u8"
     ],
@@ -5633,9 +5632,8 @@
   },
   {
     "nanoid": "wnEDkDRFAeU6X2",
-    "name": "TV Punjab",
+    "name": "Bpn Tv9",
     "iptv_urls": [
-      "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8?ads.vf=FKWvIiyQPz8"
     ],
     "youtube_urls": [],
     "language": "",
@@ -5758,12 +5756,11 @@
   },
   {
     "nanoid": "YKfLJhuAiqt0V5",
-    "name": "Twenty Four News",
+    "name": "bpn tv11",
     "iptv_urls": [
-      "https://segment.yuppcdn.net/110322/channel24/playlist.m3u8"
     ],
     "youtube_urls": [],
-    "language": "mal",
+    "language": "eng",
     "category": "news",
     "country": "in",
     "isGeoBlocked": false
