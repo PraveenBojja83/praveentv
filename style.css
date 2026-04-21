@@ -201,6 +201,42 @@ footer {
 
 /* Mobile view adjustments */
 @media (max-width: 768px) {
+  /* Mobile view adjustments */
+  header {
+    height: auto;              /* allow flexible height */
+    flex-direction: column;    /* stack sections vertically */
+    padding: 10px;
+    font-size: 12px;           /* slightly smaller text */
+    border-radius: 0;          /* simplify for mobile */
+  }
+
+  .header-left,
+  .header-middle,
+  .header-right {
+    flex: none;                /* remove equal width */
+    width: 100%;               /* full width each */
+    text-align: center;        /* center all content */
+    margin: 5px 0;             /* spacing between sections */
+  }
+
+  .logo img {
+    height: 40px;              /* smaller logo */
+    margin: 0 auto;            /* center logo */
+    display: block;
+  }
+
+  .app-name {
+    font-size: 1.2rem;         /* reduce app name size */
+    letter-spacing: 1px;
+  }
+
+  .header-right select {
+    width: 90%;                /* full-width dropdown */
+    font-size: 0.9rem;
+    margin: 8px auto;
+    display: block;
+  }
+
   /* Main container stacks vertically */
   .main-container {
     flex-direction: column;
