@@ -202,44 +202,50 @@ footer {
 /* Mobile view adjustments */
 @media (max-width: 768px) {
 
-  /* Header adjustments */
   header {
-    height: auto;              /* allow flexible height */
-    flex-direction: column;    /* stack sections vertically */
-    padding: 10px;
-    font-size: 12px;           /* slightly smaller text */
-    border-radius: 0;          /* simplify for mobile */
+    height: auto;
+    flex-direction: row;        /* keep row layout instead of stacking */
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 0;
   }
 
-  .header-left,
-  .header-middle {
-    flex: none;                /* remove equal width */
-    width: 80%;               /* full width each */
-    text-align: center;        /* center all content */
-    margin: 5px 0;             /* spacing between sections */
+  /* Left section: 20% */
+  .header-left {
+    flex: 0 0 20%;              /* fixed 20% width */
+    text-align: left;
+    margin-left: 5px;
   }
 
   .logo img {
-    height: 40px;              /* smaller logo */
-    margin: 0 auto;            /* center logo */
-    display: block;
+    height: 30px;
+    width: auto;
+  }
+
+  /* Middle section: 40% */
+  .header-middle {
+    flex: 0 0 40%;              /* fixed 40% width */
+    text-align: center;
   }
 
   .app-name {
-    font-size: 0.8rem;         /* reduce app name size */
+    font-size: 1.2rem;
     letter-spacing: 1px;
   }
 
+  /* Right section: 40% */
   .header-right {
-    display: flex;             /* ✅ make it flex */
-    justify-content: center;   /* center them on small screens */
-    flex-wrap: wrap;           /* allow wrapping if space is tight */
-    gap: 2px;                  /* spacing between dropdowns */
+    flex: 0 0 40%;              /* fixed 40% width */
+    display: flex;              /* keep dropdowns side by side */
+    justify-content: flex-end;  /* align to right */
+    align-items: center;
+    gap: 8px;
+    margin-right: 5px;
   }
 
   .header-right select {
-    width: auto;               /* keep natural width */
-    font-size: 0.5rem;
+    width: auto;
+    font-size: 0.9rem;
   }
 
   
