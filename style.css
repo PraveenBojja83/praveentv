@@ -239,13 +239,14 @@ footer {
     display: flex;              /* keep dropdowns side by side */
     justify-content: flex-end;  /* align to right */
     align-items: center;
-    gap: 8px;
-    margin-right: 5px;
+    gap: 2px;
+    margin-right:2px;
   }
 
   .header-right select {
-    width: auto;
-    font-size: 0.9rem;
+    width: 60%;
+    font-size: 0.5rem;
+    padding: 4px 6px; 
   }
 
   
