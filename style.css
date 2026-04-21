@@ -214,7 +214,7 @@ footer {
   .header-left,
   .header-middle {
     flex: none;                /* remove equal width */
-    width: 100%;               /* full width each */
+    width: 80%;               /* full width each */
     text-align: center;        /* center all content */
     margin: 5px 0;             /* spacing between sections */
   }
@@ -226,7 +226,7 @@ footer {
   }
 
   .app-name {
-    font-size: 1.2rem;         /* reduce app name size */
+    font-size: 0.8rem;         /* reduce app name size */
     letter-spacing: 1px;
   }
 
@@ -234,12 +234,12 @@ footer {
     display: flex;             /* ✅ make it flex */
     justify-content: center;   /* center them on small screens */
     flex-wrap: wrap;           /* allow wrapping if space is tight */
-    gap: 8px;                  /* spacing between dropdowns */
+    gap: 2px;                  /* spacing between dropdowns */
   }
 
   .header-right select {
     width: auto;               /* keep natural width */
-    font-size: 0.9rem;
+    font-size: 0.5rem;
   }
 
   
